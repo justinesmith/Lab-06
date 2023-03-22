@@ -1,3 +1,4 @@
+# Justine Smith
 def password_encoder(password):
     new_password = ''   
     for i in password:
