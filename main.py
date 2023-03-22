@@ -12,15 +12,15 @@ def password_decoder(password):
         decoded_pass += new_char
     return decoded_pass
 
-print("""Menu    # menu
+
+program_on = True
+while True:
+    print("""Menu    # menu
 -------------
 1. Encode
 2. Decode
 3. Quit
 """)
-
-program_on = True
-while True:
     option = int(input("Please enter an option: "))
     if option == 1:       # if option is 1, encodes password and stores it
         first_password = str(input("Please enter your password to encode: "))
